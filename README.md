@@ -1,0 +1,9 @@
+This project is a small side project built to demonstrate how a basic machine learning model can be integrated with a web application using modern Python tools. The goal of this repository is educational rather than production-focused, making it ideal for beginners who want to understand the end-to-end workflow of building, serving, and interacting with a machine learning model.
+
+The application predicts car prices using a lightweight dataset and a simple preprocessing pipeline. A Random Forest regression model is used for prediction, chosen for its ease of use and ability to provide reasonable results without extensive tuning. Since the model is trained on a limited dataset, the predictions are not intended to be accurate for real-world or industry-level use cases. Instead, the emphasis is on learning how the components fit together.
+
+The backend of the project is built using FastAPI, which handles API requests and serves the trained model for inference. It provides a clean and efficient way to expose the machine learning model as a REST API. On the frontend side, Streamlit is used to create a simple and interactive user interface where users can input car details and instantly see predicted prices. This combination keeps the project lightweight and easy to understand.
+
+It is important to note that this project is not designed for production deployment or commercial applications. The dataset is small, the model is not heavily optimized, and many real-world considerations such as scalability, robustness, and data validation are intentionally simplified or omitted.
+
+Overall, this repository serves as a hands-on introduction to deploying machine learning models with FastAPI and building quick user interfaces with Streamlit. It is best suited for learners, students, and developers exploring how to connect machine learning with web applications in a practical and approachable way
